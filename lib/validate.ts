@@ -1,8 +1,6 @@
-// platform-limits/src/validate.ts
 // Lightweight TypeScript validator for social platform limits.
-// Usage: import { validatePost } from '../platform-limits/dist/validate' (or import source and build locally)
 
-import limitsJson from '../limits.json';
+import limitsJson from '../platfrom-limits/limits.json';
 
 export type Media = {
   size_mb?: number;
