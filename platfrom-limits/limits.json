@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "note": "Default limits included here are based on commonly-known values as of mid-2024. Platforms change limits frequently — update values in this file if you need the latest rules."
+  },
+  "platforms": {
+    "twitter": {
+      "displayName": "Twitter / X",
+      "max_text_chars": 280,
+      "max_hashtags": 30,
+      "max_mentions": 50,
+      "max_images": 4,
+      "max_videos": 1,
+      "max_image_size_mb": 5,
+      "max_video_size_mb": 512,
+      "max_video_duration_sec": 140,
+      "allowed_image_formats": ["jpg", "jpeg", "png", "gif"],
+      "allowed_video_formats": ["mp4", "mov"]
+    },
+    "instagram": {
+      "displayName": "Instagram",
+      "max_text_chars": 2200,
+      "max_hashtags": 30,
+      "max_mentions": 50,
+      "max_images": 10,
+      "max_videos": 10,
+      "max_image_size_mb": 30,
+      "max_video_size_mb": 1024,
+      "max_video_duration_sec": 600,
+      "allowed_image_formats": ["jpg", "jpeg", "png"],
+      "allowed_video_formats": ["mp4", "mov"]
+    },
+    "linkedin": {
+      "displayName": "LinkedIn",
+      "max_text_chars": 3000,
+      "max_hashtags": 30,
+      "max_mentions": 50,
+      "max_images": 9,
+      "max_videos": 1,
+      "max_image_size_mb": 10,
+      "max_video_size_mb": 512,
+      "max_video_duration_sec": 600,
+      "allowed_image_formats": ["jpg", "jpeg", "png", "gif"],
+      "allowed_video_formats": ["mp4", "mov"]
+    },
+    "facebook": {
+      "displayName": "Facebook",
+      "max_text_chars": 63206,
+      "max_hashtags": 1000,
+      "max_mentions": 1000,
+      "max_images": 10,
+      "max_videos": 1,
+      "max_image_size_mb": 25,
+      "max_video_size_mb": 1024,
+      "max_video_duration_sec": 3600,
+      "allowed_image_formats": ["jpg", "jpeg", "png", "gif"],
+      "allowed_video_formats": ["mp4", "mov"]
+    },
+    "tiktok": {
+      "displayName": "TikTok",
+      "max_text_chars": 2200,
+      "max_hashtags": 100,
+      "max_mentions": 100,
+      "max_images": 1,
+      "max_videos": 1,
+      "max_image_size_mb": 20,
+      "max_video_size_mb": 1024,
+      "max_video_duration_sec": 600,
+      "allowed_image_formats": ["jpg", "jpeg", "png"],
+      "allowed_video_formats": ["mp4", "mov"]
+    },
+    "mastodon": {
+      "displayName": "Mastodon",
+      "max_text_chars": 500,
+      "max_hashtags": 100,
+      "max_mentions": 100,
+      "max_images": 4,
+      "max_videos": 1,
+      "max_image_size_mb": 10,
+      "max_video_size_mb": 100,
+      "max_video_duration_sec": 300,
+      "allowed_image_formats": ["jpg", "jpeg", "png", "gif", "webp"],
+      "allowed_video_formats": ["mp4", "webm"]
+    }
+  }
+}
